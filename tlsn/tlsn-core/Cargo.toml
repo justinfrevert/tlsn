@@ -9,7 +9,8 @@ version = "0.1.0-alpha.2"
 edition = "2021"
 
 [features]
-default = []
+default = ["std"]
+std = []
 fixtures = ["dep:hex"]
 
 [dependencies]
